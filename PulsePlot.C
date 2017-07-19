@@ -23,7 +23,7 @@ void PulsePlot()
 
  PutText(0.53, 0.78, kBlack, "LAPD", 0.047);
  PutText(0.53, 0.72, kBlack, "Protons 65 MeV, I = 5 nA ", 0.047);
- PutText(0.53, 0.66, kBlack, "Target PMMA 5#times5#times5 cm^{3}", 0.047);
+ PutText(0.53, 0.66, kBlack, "PMMA target (5#times5#times5 cm^{3})", 0.047);
 
  gPad->SaveAs("PulsePlot.png");
 }
