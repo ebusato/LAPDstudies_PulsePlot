@@ -17,7 +17,7 @@ void PulsePlot()
  g->GetYaxis()->SetTitleSize(0.05);
  g->GetXaxis()->SetTitleOffset(1.25);
  g->GetYaxis()->SetTitleOffset(1.5);
- g->SetMarkerColor(kMagenta);
+ g->SetMarkerColor(kBlack);
  gPad->SetGridx(1);
  gPad->SetGridy(1);
 
