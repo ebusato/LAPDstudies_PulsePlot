@@ -26,4 +26,5 @@ void PulsePlot()
  PutText(0.53, 0.66, kBlack, "PMMA target (5#times5#times5 cm^{3})", 0.047);
 
  gPad->SaveAs("PulsePlot.png");
+ gPad->SaveAs("PulsePlot.pdf");
 }
